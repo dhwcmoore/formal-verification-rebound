@@ -2,7 +2,7 @@
   EnergyEconomics.v
   Core definitions for formal verification of rebound debate
 *)
-From Stdlib Require Import Reals.
+From Coq Require Import Reals.
 Local Open Scope R_scope.
 
 Module EnergyEconomics.

@@ -1,0 +1,14 @@
+{
+  "name": "Coq Rebound Verification",
+  "image": "coqorg/coq:8.17",
+  "workspaceFolder": "/workspace",
+  "postCreateCommand": "cd coq && make clean && make all",
+  "customizations": {
+    "vscode": {
+      "extensions": ["maximedenes.vscoq"],
+      "settings": {
+        "coq.rootPath": "./coq"
+      }
+    }
+  }
+}

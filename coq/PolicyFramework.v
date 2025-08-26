@@ -1,4 +1,4 @@
-From Stdlib Require Import Reals Lra.
+From Coq Require Import Reals Lra.
 Require Import EnergyEconomics.
 Local Open Scope R_scope.
 

@@ -1,0 +1,6 @@
+*.vo
+*.glob
+*.vok
+*.vos
+*.aux
+.DS_Store

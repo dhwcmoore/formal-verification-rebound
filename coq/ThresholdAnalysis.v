@@ -1,4 +1,4 @@
-From Stdlib Require Import Reals Lra.
+From Coq Require Import Reals Lra.
 Open Scope R_scope.
 
 (* Core threshold condition for backfire *)
