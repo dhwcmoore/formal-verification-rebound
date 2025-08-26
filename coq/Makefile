@@ -3,7 +3,7 @@
 all: EnergyEconomics.vo ThresholdAnalysis.vo WeiEquivalence.vo KoomeySaundersResolution.vo PolicyFramework.vo
 
 %.vo: %.v
-	coqc $
+	coqc $<
 
 EnergyEconomics.vo: EnergyEconomics.v
 
