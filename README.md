@@ -40,7 +40,7 @@
 3. **In the terminal that appears, run:**
    ```bash
    cd coq
-   make clean && make
+   make
    ```
 4. **You should see:**
    ```
@@ -103,16 +103,22 @@ make
 
 ## How to Explore the Proofs Interactively
 
-### Step 1: Open a Proof File
-In Codespaces, click on any `.v` file (e.g., `WeiEquivalence.v`) in the file explorer.
+### Step 1: Open a Proof File in the Editor
+**In the LEFT SIDEBAR** (labeled "EXPLORER"), you'll see a file tree. Look for the `.v` files:
+- Click on **`WeiEquivalence.v`** (or any `.v` file)
+- **The file will open in the main editor area** (center of screen)
+- You'll see the Coq source code with theorems and proofs
 
 ### Step 2: Install Coq Extension (if prompted)
-VS Code may suggest installing the "VSCoq" extension. Click "Install" - this enables interactive proof exploration.
+When you open a `.v` file, VS Code may show a popup suggesting the "VSCoq" extension. Click **"Install"** - this enables interactive proof stepping.
 
-### Step 3: Step Through Proofs
-- **Place cursor on any line** of a proof
-- **Press Ctrl+Alt+Down** (or use the Coq panel) to execute that step
-- **Watch the "Goals" panel** to see what's being proved at each step
+### Step 3: Step Through Proofs Line by Line
+Once the VSCoq extension is installed:
+- **Click anywhere in a theorem or proof** 
+- **Press Ctrl+Alt+Down** to execute that line
+- **A "Goals" panel will appear** showing what needs to be proved
+- **Press Ctrl+Alt+Down repeatedly** to step through each proof step
+- **Watch the Goals panel change** as the proof progresses
 
 ### Step 4: Understanding the Syntax (Crash Course)
 ```coq
