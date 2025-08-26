@@ -40,7 +40,7 @@
 3. **In the terminal that appears, run:**
    ```bash
    cd coq
-   make
+   make clean && make
    ```
 4. **You should see:**
    ```
