@@ -5,7 +5,6 @@
 From Coq Require Import Reals.
 Local Open Scope R_scope.
 
-Module EnergyEconomics.
 
 (* Market context types *)
 Inductive CompetitionType := PerfectCompetition | ImperfectCompetition.
@@ -45,4 +44,3 @@ Definition wei_theta (sigma eta : R) : R :=
 Definition backfire (sigma eta : R) : Prop := 
   sigma + eta > 1.
 
-End EnergyEconomics.

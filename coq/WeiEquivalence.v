@@ -2,14 +2,14 @@
   WeiEquivalence.v
   Central equivalence theorem: Wei and Saunders conditions are identical
 *)
-From Coq Require Import Reals Lra.
 Require Import EnergyEconomics.
+From Coq Require Import Reals Lra.
+
 Local Open Scope R_scope.
 
 Module WeiEquivalence.
 
-(* Import the definitions from EnergyEconomics module *)
-Import EnergyEconomics.
+
 
 (* Central theorem: Both approaches reduce to the same condition *)
 Theorem wei_saunders_equivalence :
