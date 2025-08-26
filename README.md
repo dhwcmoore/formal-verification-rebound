@@ -40,7 +40,7 @@
 3. **In the terminal that appears, run:**
    ```bash
    cd coq
-   make
+   make clean && make
    ```
 4. **You should see:**
    ```
@@ -57,7 +57,7 @@
 # Install Coq 8.17+, then:
 git clone https://github.com/dhwcmoore/formal-verification-rebound
 cd formal-verification-rebound/coq
-make
+make clean && make
 ```
 
 ---
